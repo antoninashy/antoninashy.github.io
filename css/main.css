@@ -25,10 +25,13 @@ body {
     font-family: 'Arimo', sans-serif;
     font-size: 18px;
     font-weight: 400; 
-    }
-    .pp-header .navbar-nav .container {
+  }
+  .pp-header .logo img {
+      max-height: 40px;
+  }
+  .pp-header .navbar-nav .container {
      max-width: 100%; 
-    }
+  }
   @media (max-width: 576px) {
     .pp-header {
       padding-top: 0; } }
@@ -36,6 +39,15 @@ body {
     .pp-header .container {
       max-width:100%; 
       padding-right: 600px;} }
+  @media (max-width: 992px) {
+    .pp-header .logo {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase; } }
       
 .page-content {
   padding-top: 50px; 
@@ -44,37 +56,6 @@ body {
   text-align: center;
   font-family: 'Arimo', sans-serif;
 }
-
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
-#header {
-  background: #e9e8e6;
-  box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
-  z-index: 997;
-  padding: 15px 0;
-}
-#header .logo {
-  font-size: 32px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 400;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-#header .logo a {
-  color: #222222;
-}
-#header .logo img {
-  max-height: 40px;
-}
-@media (max-width: 992px) {
-  #header .logo {
-    font-size: 28px;
-  }
-}
-
 
 /******************/
 /* Body Section   */
@@ -207,33 +188,6 @@ body {
   .pp-gallery figure.pp-effect figcaption::after,
   .pp-gallery figure.pp-effect p {
     transition: opacity 0.35s, transform 0.35s; }
-  .pp-gallery figure.pp-effect:hover img {
-    opacity: 1;
-    transform: translate3d(0, 0, 0); }
-  .pp-gallery figure.pp-effect:hover figcaption::before,
-  .pp-gallery figure.pp-effect:hover figcaption::after {
-    opacity: 1;
-    transform: scale(1); }
-  .pp-gallery figure.pp-effect:hover figcaption:before {
-    background: rgba(31, 30, 30, 0.5); }
-  .pp-gallery figure.pp-effect:hover .h4,
-  .pp-gallery figure.pp-effect:hover p {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-    color: #FFFFFF; }
-  .pp-gallery figure.pp-effect:hover figcaption::after,
-  .pp-gallery figure.pp-effect:hover .h4,
-  .pp-gallery figure.pp-effect:hover p,
-  .pp-gallery figure.pp-effect:hover img {
-    transition-delay: 0.15s; }
-  @media (max-width: 768px) and (min-width: 578px) {
-    .pp-gallery figure.pp-effect:hover .h4 {
-      padding-top: 20%;
-      font-size: 16px; } }
-  @media (max-width: 375px) {
-    .pp-gallery figure.pp-effect:hover .h4 {
-      padding-top: 20%;
-      font-size: 16px; } }
       
 /******************/
 /* Footer section */
