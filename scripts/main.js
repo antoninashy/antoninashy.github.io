@@ -44,8 +44,6 @@ function filterItems(filter) {
   });
 }
 
-(function() {
-  "use strict";
 
   /**
    * Easy selector helper function
@@ -58,7 +56,7 @@ function filterItems(filter) {
       return document.querySelector(el)
     }
   }
-  
+
   /**
    * Easy event listener function
    */
@@ -71,6 +69,27 @@ function filterItems(filter) {
         selectEl.addEventListener(type, listener)
       }
     }
+  }
+
+  /**
+   * Easy on scroll event listener 
+   */
+  const onscroll = (el, listener) => {
+    el.addEventListener('scroll', listener)
+  }
+
+  /**
+   * Scrolls to an element with header offset
+   */
+  const scrollto = (el) => {
+    let header = select('#header')
+    let offset = header.offsetHeight
+
+    let elementPos = select(el).offsetTop
+    window.scrollTo({
+      top: elementPos - offset,
+      behavior: 'smooth'
+    })
   }
 
   /**
@@ -92,4 +111,30 @@ function filterItems(filter) {
     }
   }, true)
   
-})()
+  
+//Get the button
+let mybutton = document.getElementById("btn-back-to-top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", backToTop);
+
+function backToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
