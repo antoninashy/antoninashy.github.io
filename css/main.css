@@ -1,5 +1,5 @@
 body {
-  background: #ffffff;
+  background: #e9e8e6;
   min-height: 900px;
   position: relative;
   background-size: cover;
@@ -53,7 +53,6 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-
 /*--------------------*/
 /* Back to top button */
 /*--------------------*/
@@ -64,7 +63,6 @@ body {
   display: none;
   z-index: 99; 
 }
-
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -289,6 +287,10 @@ body {
   border-color: #34b7a7;
 }
 
+.btn-primary:focus {
+  background: #34b7a7;
+}
+
 .btn-primary:hover {
   color: #fff;
   background-color: #26867C;
@@ -305,6 +307,11 @@ body {
   background-color: #26867C;
   border-color: #26867C;
 }
+
+.btn-outline-primary:focus {
+  background: #34b7a7;
+}
+
 
 .pp-gallery {
   min-height: 500px; }
