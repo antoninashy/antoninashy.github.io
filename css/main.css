@@ -3,7 +3,7 @@ body {
   min-height: 900px;
   position: relative;
   background-size: cover;
-  font-family: 'Arimo', sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 .page {
   background: white;
@@ -48,7 +48,7 @@ body {
   padding-bottom: 35px; 
   padding-left: 260px;
   text-align: center;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*--------------------------------------------------------------
