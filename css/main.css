@@ -46,9 +46,8 @@ body {
     text-transform: uppercase; } }
       
 .page-content {
-  padding-top: 50px; 
+  padding-top: 40px; 
   padding-bottom: 35px; 
-  padding-left: 260px;
   text-align: center;
   font-family: "Open Sans", sans-serif;
 }
@@ -312,7 +311,6 @@ body {
   background: #34b7a7;
 }
 
-
 .pp-gallery {
   min-height: 500px; }
   .pp-gallery .card-columns .card {
@@ -401,8 +399,6 @@ body {
     opacity: 0;
     transform: translate3d(0, -10px, 0); }
   .pp-gallery figure.pp-effect img,
-  .pp-gallery figure.pp-effect .h4 {
-    transform: translate3d(0, -25px, 0); }
   .pp-gallery figure.pp-effect img,
   .pp-gallery figure.pp-effect figcaption::before,
   .pp-gallery figure.pp-effect figcaption::after,
@@ -440,6 +436,14 @@ body {
   .pp-contact .h4 {
     padding-top: 4rem; } }
 
+@media screen and (min-width: 767px) {
+.desktop-space-top {margin-top:180px;}
+}
+
+@media screen and (min-width: 767px) {
+.desktop-space-bottom {margin-bottom:420px;}
+}
+
 /****************/
 /* Hero Section */
 /****************/
@@ -449,5 +453,14 @@ body {
   height: 100vh;
   background: url("../images/welcome.jpeg") top right;
   background-size: cover;
+}
+
+/* Common Style */
+.pp-section {
+  padding-top: 2rem;
+ }
+ 
+.pp-bottom {
+  padding-bottom: 2rem;
 }
 

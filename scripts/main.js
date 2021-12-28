@@ -111,7 +111,7 @@ function filterItems(filter) {
     }
   }, true)
   
-  
+
 //Get the button
 let mybutton = document.getElementById("btn-back-to-top");
 
@@ -130,6 +130,7 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
+
 // When the user clicks on the button, scroll to the top of the document
 mybutton.addEventListener("click", backToTop);
 
