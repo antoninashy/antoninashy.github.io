@@ -436,15 +436,10 @@ body {
 .pp-contact textarea {
   min-height: 200px; }
 
-.pp-contact .pp-contact-message {
-  padding-left: 5rem; }
-
 @media (max-width: 768px) {
   .pp-contact .h4 {
-    padding-top: 4rem; }
-  .pp-contact .pp-contact-message {
-    padding-left: 0; } }
-  
+    padding-top: 4rem; } }
+
 /****************/
 /* Hero Section */
 /****************/
