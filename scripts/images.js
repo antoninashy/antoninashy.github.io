@@ -44,10 +44,9 @@ function filterItems(filter) {
   });
 }
 
-//Get the button
+//Get to top button
 let mybutton = document.getElementById("btn-back-to-top");
 
-// When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
   scrollFunction();
 };
@@ -63,7 +62,6 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
 mybutton.addEventListener("click", backToTop);
 
 function backToTop() {
@@ -71,7 +69,7 @@ function backToTop() {
   document.documentElement.scrollTop = 0;
 }
 
-
+//Image fullscreen on click
 $('img[data-enlargeable]').addClass('img-enlargeable').click(function() {
   var src = $(this).attr('src');
   var modal;
@@ -100,3 +98,8 @@ $('img[data-enlargeable]').addClass('img-enlargeable').click(function() {
     }
   });
 });
+
+//Show legend for paintings on sale
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})

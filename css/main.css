@@ -274,6 +274,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .pp-footer {
   background: #e9e8e6; 
+  height: 80px; 
   }
   .pp-footer a.credit {
     color: inherit;
@@ -287,6 +288,12 @@ h1, h2, h3, h4, h5, h6 {
     color: #888; }
   .pp-footer .pp-instagram:hover i {
     color: #405de6; }
+    
+@media (max-width: 767px) {
+ .pp-footer {
+   height: 60px;
+  } 
+}
 
 /****************/
 /* Contact page */
@@ -331,7 +338,11 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #hero {
-    height: 68vh; } }
+    height: 90vh; 
+    background: url("../images/welcome_small.jpeg") top right;  
+    background-size: cover;
+    } 
+}
 
 /****************/
 /* Common Style */
