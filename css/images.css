@@ -437,40 +437,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #405de6; }
 
 /****************/
-/* Contact page */
-/****************/
-
-.pp-contact textarea {
-  min-height: 200px; }
-
-@media (max-width: 768px) {
-  .pp-contact .h4 {
-    padding-top: 4rem; } }
-
-@media screen and (min-width: 767px) {
-.desktop-space-top {margin-top:180px;}
-}
-
-@media screen and (min-width: 767px) {
-.desktop-space-bottom {margin-bottom:432px;}
-}
-
-/****************/
-/* Hero Section */
-/****************/
-
-#hero {
-  width: 100%;
-  height: 80vh;
-  background: url("../images/welcome.jpeg") top right;
-  background-size: cover;
-}
-
-@media (max-width: 768px) {
-  #hero {
-    height: 68vh; } }
-
-/****************/
 /* Common Style */
 /****************/
 
