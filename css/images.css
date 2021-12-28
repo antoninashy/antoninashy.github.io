@@ -68,8 +68,8 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------*/
 #btn-back-to-top {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 120px;
+  right: 70px;
   display: none;
   z-index: 99; 
 }
