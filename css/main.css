@@ -33,6 +33,11 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   padding: 15px 0;
 }
+
+#header .container-fluid {
+  justify-content: space-between;
+}
+
 #header .logo {
   font-size: 32px;
   margin: 0;
@@ -51,6 +56,10 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 992px) {
   #header .logo {
     font-size: 28px;
+    padding-left:10px;
+  }
+  #header .container-fluid {
+    justify-content: flex-start;
   }
 }
 
@@ -91,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: 600;
-  color: #888888;
+  color: black;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -119,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 25px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #222222;
+  color: #a090f0;
 }
 .navbar .dropdown ul {
   display: block;
