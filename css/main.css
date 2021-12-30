@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .container-fluid {
   justify-content: space-between;
+  padding-right:27px;
 }
 
 #header .logo {
