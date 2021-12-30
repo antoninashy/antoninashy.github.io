@@ -103,3 +103,4 @@ $('img[data-enlargeable]').addClass('img-enlargeable').click(function() {
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
+
