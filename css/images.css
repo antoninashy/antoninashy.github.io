@@ -15,7 +15,20 @@ h1, h2, h3, h4, h5, h6 {
   max-width: auto;
   margin: 0 auto; 
   }
-      
+.container {
+  padding-top: 4rem;
+}      
+.page .container {
+  padding-top: 2.8rem;
+}   
+@media (max-width: 767px) {
+  .container {
+     padding-top: 2.5rem;
+   } 
+   .page .container {
+     padding-top: 1rem;
+   } 
+}      
 .page-content {
   padding-top: 40px; 
   padding-bottom: 35px; 
