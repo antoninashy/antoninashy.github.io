@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #e9e8e6;
+  background: #e7e1fe;
   box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
   z-index: 997;
   padding: 15px 0;
@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #34b7a7;
+  background-color: #a090f0;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #34b7a7;
+  color: #a090f0;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #eeebf7;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -236,7 +236,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #222222;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #34b7a7;
+  color: #a090f0;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -262,7 +262,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #34b7a7;
+  color: #bfb4f9;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -273,7 +273,7 @@ h1, h2, h3, h4, h5, h6 {
 /******************/
 
 .pp-footer {
-  background: #e9e8e6; 
+  background: #e7e1fe; 
   height: 80px; 
   }
   .pp-footer a.credit {
