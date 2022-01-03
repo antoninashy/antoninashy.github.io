@@ -75,16 +75,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (min-width: 767px) {
- .pp-filters {
-   padding-top: 5rem;
-  } }
-  
-@media (max-width: 767px) {
- .pp-filters {
-   padding-top: 3rem;
-  } }
-
 /*--------------------*/
 /* Back to top button */
 /*--------------------*/
@@ -315,7 +305,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Body Section   */
 /******************/
 
-.pp-category-filter a {
+.pp-category-btn a {
   display: inline-block;
   margin: 0 10px 6px 0;
   font-size: 14px;
@@ -439,7 +429,28 @@ h1, h2, h3, h4, h5, h6 {
 /* Common Style */
 /****************/
 
+@media (min-width: 767px) {
+ .pp-top {
+   padding-top: 7rem;
+  } }
+  
+@media (max-width: 767px) {
+ .pp-top {
+   padding-top: 4rem;
+  } }
+
 .pp-section {
   padding-top: 7rem;
  }
+
+@media (min-width: 767px) {
+ .pp-sketches {
+   padding-top: 5em;
+  } }
+  
+@media (max-width: 767px) {
+ .pp-sketches {
+   padding-top: 3rem;
+  } }
+
 
