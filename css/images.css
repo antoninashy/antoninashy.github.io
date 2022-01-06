@@ -350,54 +350,6 @@ h1, h2, h3, h4, h5, h6 {
   border-color: black;
 }
 
-.pp-gallery {
-  min-height: 500px; }
-  .pp-gallery .card-columns .card {
-    border: none;
-    margin-bottom: 0;
-    border-radius: none; }
-  @media (max-width: 992px) {
-    .pp-gallery .card-columns {
-      -moz-column-count: 2;
-           column-count: 2; } }
-  @media (max-width: 576px) {
-    .pp-gallery .card-columns {
-      -moz-column-count: 1;
-           column-count: 1; } }
-  .pp-gallery .card figure {
-    position: relative;
-    overflow: hidden;
-    margin: 10px 1%;
-    text-align: center; }
-  .pp-gallery .card figure img {
-    position: relative;
-    display: block;
-    max-width: 100%;
-    opacity: 1; }
-
-  .pp-gallery .card figure .h4 {
-    word-spacing: -0.15em;
-    font-weight: 600; }
-  .pp-gallery .card figure .h4,
-  .pp-gallery .card figure p {
-    margin: 0; }
-  .pp-gallery .card figure p {
-    letter-spacing: 1px;
-    font-size: 60%; }
-  .pp-gallery figure.pp-effect .h4 {
-    padding-top: 26%;
-    transition: transform 0.35s;
-    opacity: 0; }
-  .pp-gallery figure.pp-effect p {
-    padding: 0.5em 2em;
-    text-transform: none;
-    opacity: 0;
-    transform: translate3d(0, -10px, 0); }
-  .pp-gallery figure.pp-effect img,
-  .pp-gallery figure.pp-effect img,
-  .pp-gallery figure.pp-effect p {
-    transition: opacity 0.35s, transform 0.35s; }
-      
 /******************/
 /* Footer section */
 /******************/
@@ -452,5 +404,36 @@ h1, h2, h3, h4, h5, h6 {
  .pp-sketches {
    padding-top: 3rem;
   } }
+
+
+/****************/
+/* Images Style */
+/****************/
+
+.portfolio-img-box img {
+    border-radius: 3px;
+}
+
+.portfolio-img:hover .portfolio-img-overlay span {
+    background: no-repeat center center rgba(0, 0, 0, 0.4);
+}
+
+.portfolio-img:hover .portfolio-img-overlay span {
+    opacity: 2;
+}
+
+.portfolio-img-overlay span {
+    height: 100%;
+    opacity: 0;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    position: absolute;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+    z-index: 1;
+}
 
 

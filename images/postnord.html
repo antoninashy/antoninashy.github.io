@@ -19,7 +19,15 @@
     <link href="../css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
     <link href="../css/font-awesome/css/all.min.css?ver=1.2.0"       rel="stylesheet">
     <link href="../css/images.css?ver=1.2.0" rel="stylesheet">
-    <link href="../vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">    
+    
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="../vendor/owl/css/owl_002.css">
+    <link rel="stylesheet" href="../vendor/owl/css/owl.css">
+    <link rel="stylesheet" href="../vendor/owl/css/owl_003.css">
+    
+    <!-- Magnipic popup -->
+    <link rel="stylesheet" type="text/css" href="../vendor/MagnificPopup/css/magnific-popup.css">
   </head>
   
   <body id="top">
@@ -45,14 +53,11 @@
       <div class="container px-0">
            <div class="row pp-category-btn">
              <div class="col-sm-12" align="center">
-              <a class="btn btn-primary
-                 pp-filter-button" href="../sketches.html">Water Color
+              <a class="btn btn-outline-primary" href="../sketches.html">Water Color
               </a>
-              <a class="btn btn-outline-primary"
-                 href="postnord.html">Postnord Frimärken
+              <a class="btn btn-primary" href="postnord.html">Postnord Frimärken
               </a>
-              <a class="btn btn-outline-primary"
-                 href="jubileum.html">Göteborg Jubileum
+              <a class="btn btn-outline-primary" href="jubileum.html">Göteborg Jubileum
               </a>
              </div>
            </div>
@@ -65,39 +70,52 @@
       </button>
       
           <div class="container px-0">
-            <div class="pp-gallery">
-              <div class="card-columns">
+              <div class="projects-wrapper row works-grid  masonry clearfix pt-4" 
+                   style="position: relative; height: 732.7px;">
                 <!------------------>
                 <!-- Begin Images -->
-                <!------------------>             
+                <!------------------>                             
                 
-                <div class="card">
-                 <figure class="pp-effect">
-                   <img data-enlargeable class="img-fluid img-thumbnail" 
-                   src="https://lh3.googleusercontent.com/tIrBVE23X9yslomP9q_x9z2xJb21bU_lvPMTsw_JtTWLrixcUhlJf7oj_ilgqnVdJknzejrHLqZtFB00S4-yegJMNvtM9G2i_tMkJ-eoF1zK8pgPA70GOCPfmwn4s3TPLoqi-8pi=w1400-h950"
-                   title="Fröja"
-                   data-filename="postnord"
-                   alt="Sketches"
-                   style="cursor: pointer">
-                 </figure>
-                </div>
+                <div class="col-lg-4 work-item portfolio-img mt-4">
+                  <div class="portfolio-img-box">
+                    <div class="position-relative">
+                      <img src="https://lh3.googleusercontent.com/tIrBVE23X9yslomP9q_x9z2xJb21bU_lvPMTsw_JtTWLrixcUhlJf7oj_ilgqnVdJknzejrHLqZtFB00S4-yegJMNvtM9G2i_tMkJ-eoF1zK8pgPA70GOCPfmwn4s3TPLoqi-8pi=w1400-h950"
+                           class="img-fluid img-thumbnail" 
+                           alt="Sketches"
+                           data-filename="postnord">
+                        <div class="portfolio-img-overlay">
+                          <a href="https://lh3.googleusercontent.com/tIrBVE23X9yslomP9q_x9z2xJb21bU_lvPMTsw_JtTWLrixcUhlJf7oj_ilgqnVdJknzejrHLqZtFB00S4-yegJMNvtM9G2i_tMkJ-eoF1zK8pgPA70GOCPfmwn4s3TPLoqi-8pi=w1400-h950" 
+                             class="cbox-gallary1 mfp-image"
+                             title="Fröja">
+                          <span></span>
+                          </a>
+                        </div>
+                    </div>
+                  </div>
+                </div>  
                 
-                <div class="card">
-                 <figure class="pp-effect">
-                   <img data-enlargeable class="img-fluid img-thumbnail" 
-                   src="https://lh3.googleusercontent.com/av44TfFty5PNVHm3plj15dGQInTmfiwZxXAl-vrc5C4Ax_vT7Ep4Kyj4oUb6zooftYHCGyaM_lWvuZL3fCN6nnQGm7bbsAR_ca4NzhSIkAeEW02M8kAdvBdSLRTnLvT9xf-rCmNJpg=w1400-h950"
-                   title="Rödasten"
-                   data-filename="frimark"
-                   alt="Sketches"
-                   style="cursor: pointer">
-                 </figure>
+                <div class="col-lg-4 work-item portfolio-img mt-4">
+                  <div class="portfolio-img-box">
+                    <div class="position-relative">
+                      <img class="img-fluid img-thumbnail" 
+                           src="https://lh3.googleusercontent.com/Gr2g3WCi1KT9DuIrQqtjnl5KdWi_CH-yNCjV_4gz3uGvHdobki29oBDx6CfNYOLqrGIcnP-8qgtlHMHxtIFV2LwRAcD3gBGAtOF2aR6E8E2uUk8ZPMPAOxJ2Dj6nLybHu0NN-L689A=w1400-h950"
+                           alt="Sketches"
+                           data-filename="frimark">
+                       <div class="portfolio-img-overlay">
+                        <a href="https://lh3.googleusercontent.com/Gr2g3WCi1KT9DuIrQqtjnl5KdWi_CH-yNCjV_4gz3uGvHdobki29oBDx6CfNYOLqrGIcnP-8qgtlHMHxtIFV2LwRAcD3gBGAtOF2aR6E8E2uUk8ZPMPAOxJ2Dj6nLybHu0NN-L689A=w1400-h950"
+                           class="cbox-gallary1 mfp-image"
+                           title="Rödasten">
+                        <span></span>
+                        </a>
+                       </div>
+                    </div>
+                  </div>
                 </div>
 
                 <!---------------->
                 <!-- End Images -->
                 <!---------------->
-              </div><!--End car-columns -->
-            </div>
+              </div>
           </div>
           <div class="pp-section"> </div>
         </div>
@@ -113,6 +131,11 @@
         <script src="../scripts/jquery.min.js?ver=1.2.0"></script>
         <script src="../scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
         <script src="../scripts/main.js?ver=1.2.0"></script>
+        <script src="../vendor/MagnificPopup/js/jquery_003.js"></script>
+        <script src="../vendor/owl/js/owl.js"></script>
+        <script src="../vendor/MagnificPopup/js/MagnificPopup.js"></script>
+        <script src="../vendor/isotope/js/isotope.js"></script>
+        <script src="../vendor/MagnificPopup/js/jquery_002.js"></script>
         <script src="../scripts/images.js?ver=1.2.0"></script> </div>
     </div>
   </body>
