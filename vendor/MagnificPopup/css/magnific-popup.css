@@ -57,7 +57,12 @@
 .mfp-ajax-cur {
   cursor: progress; }
 
-.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+  cursor: -moz-zoom-out;
+  cursor: -webkit-zoom-out;
+  cursor: pointer; }
+  
+.mfp-zoom-out-cur {
   cursor: -moz-zoom-out;
   cursor: -webkit-zoom-out;
   cursor: zoom-out; }
@@ -154,10 +159,10 @@ button::-moz-focus-inner {
 .mfp-counter {
   position: absolute;
   top: 0;
-  right: 4px;
+  right: 7px;
   color: black;
   font-size: 12px;
-  line-height: 32px; }
+  line-height: 42px; }
 
 .mfp-arrow {
   position: absolute;
@@ -174,6 +179,7 @@ button::-moz-focus-inner {
     margin-top: -54px; }
   .mfp-arrow:hover, .mfp-arrow:focus {
     opacity: 1;
+    color: #bfb4f9;
     filter: alpha(opacity=100); }
   .mfp-arrow:before, .mfp-arrow:after, .mfp-arrow .mfp-b, .mfp-arrow .mfp-a {
     content: '';
@@ -284,11 +290,12 @@ img.mfp-img {
 
 .mfp-title {
   text-align: left;
-  line-height: 32px;
+  line-height: 42px;
   color: black;
   word-wrap: break-word;
   padding-right: 36px; 
   background: #d7cefa;
+  padding-left: 7px;
   }
 
 .mfp-image-holder .mfp-content {
