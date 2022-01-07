@@ -162,7 +162,8 @@ button::-moz-focus-inner {
   right: 7px;
   color: black;
   font-size: 12px;
-  line-height: 42px; }
+  line-height: 42px;
+  opacity: 0; }
 
 .mfp-arrow {
   position: absolute;
@@ -296,6 +297,7 @@ img.mfp-img {
   padding-right: 36px; 
   background: #d7cefa;
   padding-left: 7px;
+  font-size: 1.2rem;
   }
 
 .mfp-image-holder .mfp-content {

@@ -286,6 +286,9 @@ h1, h2, h3, h4, h5, h6 {
   background: #e7e1fe; 
   height: 80px; 
   }
+  .pp-footer p {
+    margin-bottom: 1.5rem;
+  }
   .pp-footer a.credit {
     color: inherit;
     border-bottom: 1px dashed;
@@ -303,6 +306,9 @@ h1, h2, h3, h4, h5, h6 {
  .pp-footer {
    height: 60px;
   } 
+ .pp-footer p {
+    margin-bottom: 0.5rem;
+  }
 }
 
 /****************/

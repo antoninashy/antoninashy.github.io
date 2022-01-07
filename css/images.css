@@ -4,6 +4,7 @@ body {
   position: relative;
   background-size: cover;
   font-family: "Open Sans", sans-serif; 
+  overflow-x: hidden;  
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -362,6 +363,9 @@ h1, h2, h3, h4, h5, h6 {
     color: inherit;
     border-bottom: 1px dashed;
     text-decoration: none; }
+  .pp-footer p {
+    margin-bottom: 1.5rem;
+  }
   .pp-footer .fa {
     width: 18px; }
   .pp-footer .fa-2x {
@@ -375,6 +379,9 @@ h1, h2, h3, h4, h5, h6 {
  .pp-footer {
    height: 60px;
   } 
+ .pp-footer p {
+    margin-bottom: 0.5rem;
+  }
 }
 
 /****************/
@@ -402,7 +409,7 @@ h1, h2, h3, h4, h5, h6 {
   
 @media (max-width: 767px) {
  .pp-sketches {
-   padding-top: 3rem;
+   padding-top: 4rem;
   } }
 
 
