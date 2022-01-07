@@ -422,7 +422,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio-img:hover .portfolio-img-overlay span {
-    background: no-repeat center center rgba(0, 0, 0, 0.4);
+    background: no-repeat center center rgba(0, 0, 0, 0.3);
 }
 
 .portfolio-img:hover .portfolio-img-overlay span {
