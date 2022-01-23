@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #e7e1fe;
+  background: white;
   box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
   z-index: 997;
   padding: 15px 0;
@@ -79,6 +79,25 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------*/
 /* Back to top button */
 /*--------------------*/
+
+.btn-primary {
+  color: black;
+  background-color: #dadada;
+  border-color: black;
+}
+
+.btn-primary:focus {
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+
+.btn-primary:hover {
+  color: black;
+  background-color: #999999;
+  border-color: black;
+}
+
 #btn-back-to-top {
   position: fixed;
   bottom: 120px;
@@ -125,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: 600;
-  color: black;
+  color: #999999;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -143,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #a090f0;
+  background-color: black;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -153,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 25px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #a090f0;
+  color: black;
 }
 .navbar .dropdown ul {
   display: block;
@@ -184,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #a090f0;
+  color: black;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -267,10 +286,10 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a, .navbar-mobile a:focus {
   font-size: 15px;
   padding-right: 15px;
-  color: #222222;
+  color: #999999;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #a090f0;
+  color: black;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -296,59 +315,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #bfb4f9;
+  color: black;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
-}
-
-/******************/
-/* Body Section   */
-/******************/
-
-.pp-category-btn a {
-  display: inline-block;
-  margin: 0 10px 6px 0;
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 3px; 
-  }
-
-.btn-primary {
-  color: black;
-  background-color: #d7cefa;
-  border-color: black;
-}
-
-.btn-primary:focus {
-  color: black;
-  background-color: #d7cefa;
-  border-color: black;
-}
-
-.btn-primary:hover {
-  color: black;
-  background-color: #bfb4f9;
-  border-color: black;
-}
-
-.btn-outline-primary {
-  color: black;
-  background-color: #e9e4fa;
-  border-color: black;
-}
-
-.btn-outline-primary:hover {
-  color: black;
-  background-color: #bfb4f9;
-  border-color: black;
-}
-
-.btn-outline-primary:focus {
-  color: black;
-  background-color: #e9e4fa;
-  border-color: black;
 }
 
 /******************/
@@ -356,7 +326,7 @@ h1, h2, h3, h4, h5, h6 {
 /******************/
 
 .pp-footer {
-  background: #e7e1fe;
+  background: white;
   height: 80px; 
   }
   .pp-footer a.credit {
