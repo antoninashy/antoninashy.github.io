@@ -321,39 +321,6 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
-/******************/
-/* Footer section */
-/******************/
-
-.pp-footer {
-  background: white;
-  height: 80px; 
-  }
-  .pp-footer a.credit {
-    color: inherit;
-    border-bottom: 1px dashed;
-    text-decoration: none; }
-  .pp-footer p {
-    margin-bottom: 1.5rem;
-  }
-  .pp-footer .fa {
-    width: 18px; }
-  .pp-footer .fa-2x {
-    font-size: 22px; }
-  .pp-footer i {
-    color: #888; }
-  .pp-footer .pp-instagram:hover i {
-    color: #405de6; }
-    
-@media (max-width: 767px) {
- .pp-footer {
-   height: 60px;
-  } 
- .pp-footer p {
-    margin-bottom: 0.3rem;
-  }
-}
-
 /****************/
 /* Common Style */
 /****************/
