@@ -3,8 +3,8 @@ body {
   min-height: 900px;
   position: relative;
   background-size: cover;
-  font-family: "Open Sans", sans-serif; 
-  overflow: hidden;  
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,15 +14,15 @@ h1, h2, h3, h4, h5, h6 {
 .page {
   background: white;
   max-width: auto;
-  margin: 0 auto; 
+  margin: 0 auto;
   }
-      
+
 .page-content {
-  padding-top: 40px; 
-  padding-bottom: 35px; 
+  padding-top: 40px;
+  padding-bottom: 35px;
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  overflow: hidden;  
+  overflow: hidden;
 }
 
 /*--------------------------------------------------------------
@@ -55,9 +55,9 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   max-height: 40px;
 }
-@media (max-width: 992px) {
+@media (max-width: 772px) {
   #header .logo {
-    font-size: 28px;
+    font-size: 26px;
     padding-left:10px;
   }
   #header .container-fluid {
@@ -65,21 +65,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (min-width: 767px) {
- .pp-filters {
-   padding-top: 5rem;
-  } }
-  
-@media (max-width: 767px) {
- .pp-filters {
-   padding-top: 3rem;
-  } }
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -189,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #222222;
@@ -323,8 +313,8 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   #hero {
     width: 0%;
-    height: 0vh; 
-    } 
+    height: 0vh;
+    }
 }
 
 /****************/
@@ -334,9 +324,8 @@ h1, h2, h3, h4, h5, h6 {
 .pp-section {
   padding-top: 2rem;
  }
- 
+
 @media (max-width: 767px) {
  .pp-top {
    padding-top: 6rem;
   } }
-
