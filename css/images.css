@@ -3,7 +3,6 @@ body {
   min-height: 900px;
   position: relative;
   background-size: cover;
-  font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
 }
 
@@ -34,7 +33,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 40px;
   padding-bottom: 35px;
   text-align: center;
-  font-family: "Open Sans", sans-serif;
 }
 
 /*--------------------------------------------------------------
