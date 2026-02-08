@@ -1,23 +1,21 @@
 (function ($) {
 
     function initPortfolio() {
-       $(window).on('load', function () {
-            var $container = $('.projects-wrapper');
-            // Initialize isotope
-            $container.isotope({
-                filter: '*',
-                layoutMode: 'masonry',
-                transitionDuration: 0,
-                animationOptions: {
-                    duration: 750,
-                    easing: 'linear'
-                }
-            });
+        var $container = $('.projects-wrapper');
+        // Initialize isotope
+        $container.isotope({
+            filter: '*',
+            layoutMode: 'masonry',
+            transitionDuration: 0,
+            animationOptions: {
+                duration: 750,
+                easing: 'linear'
+            }
+        });
 
-            // Re-layout as lazy images load
-            $container.find('img').on('load', function() {
-                $container.isotope('layout');
-            });
+        // Re-layout as lazy images load
+        $container.find('img').on('load', function() {
+            $container.isotope('layout');
         });
     }
 
