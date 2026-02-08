@@ -352,6 +352,10 @@ h1, h2, h3, h4, h5, h6 {
 /* Images Style */
 /****************/
 
+.portfolio-img-box {
+    min-height: 200px;
+}
+
 .portfolio-img-box img {
     border-radius: 3px;
 }
