@@ -12,6 +12,11 @@
                     easing: 'linear'
                 }
             });
+
+            // Re-layout as lazy images load
+            $container.find('img').on('load', function() {
+                $container.isotope('layout');
+            });
         });
     }
 
